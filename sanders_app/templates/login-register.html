@@ -1,0 +1,1263 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+ 
+
+<!-- Mirrored from demo.hasthemes.com/sanders-v2/sanders/login-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Aug 2019 02:13:24 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sanders - Trusted Finance and Business Bootstrap 4 Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicons -->
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'assets/img/favicon.ico' %}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{% static 'assets/img/icon.png' %}">
+
+    <!-- ************************* CSS Files ************************* -->
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/vendor.css' %}">
+
+    <!-- Revoulation CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/revoulation.css' %}">
+
+    <!-- style css -->
+    <link id="main-style" rel="stylesheet" href="{% static 'assets/css/main.css' %}">
+
+    <!-- Style customizer (Remove these two lines please) -->
+    <link rel="stylesheet" href="{% static 'assets/css/style-customizer.css' %}">
+    <link href="{% static 'assets/css/blank.css' %}" data-style="styles" rel="stylesheet">
+
+</head>
+
+<body>
+  
+    <!-- Main Wrapper Start -->
+    <div class="wrapper">
+        <!-- Header Start -->
+        <header class="header">
+            <div class="header__inner fixed-header">
+                <div class="header__top d-none d-lg-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header__top-inner">
+                                    <div class="header__top-left">
+                                        Sanders - Above & Beyond Your Expectation
+                                    </div>
+                                    <div class="header__top-right">
+                                        <ul class="top-menu">
+                                            <li><a href="home">Buy Now</a></li>
+                                            <li><a href="signup">Login &amp; Register</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__middle">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header__middle-inner">
+                                    <div class="header__middle-left">
+                                        <div class="logo">
+                                            <a href="home" class="logo--normal">
+                                                <img src="{% get_static_prefix %}assets/img/logo/logo_01.png" alt="Logo">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="header__middle-middle d-none d-lg-block">
+                                        <div class="site-info">
+                                            <div class="site-info__item">
+                                                <i class="pe-7s-call"></i>
+                                                <div class="site-info__content">
+                                                    <span class="site-info__title">001 735 9193</span>
+                                                    <span class="site-info__text"><a href="mailto:info@example.com">info@example.com</a></span>
+                                                </div>
+                                            </div>
+                                            <div class="site-info__item">
+                                                <i class="pe-7s-map-marker"></i>
+                                                <div class="site-info__content">
+                                                    <span class="site-info__title">350 Fifth Avenue</span>
+                                                    <span class="site-info__text">New York, NY 90210</span>
+                                                </div>
+                                            </div>
+                                            <div class="site-info__item">
+                                                <i class="pe-7s-clock"></i>
+                                                <div class="site-info__content">
+                                                   <span class="site-info__title">7:30 AM - 7:30 PM</span>
+                                                    <span class="site-info__text">Monday to Saturday</span> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header__middle-right d-none d-lg-block">
+                                        <ul class="social social-round text-right">
+                                            <li class="social__item">
+                                                <a href="https://www.facebook.com/" class="social__link">
+                                                    <i class="social__icon fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="social__item">
+                                                <a href="https://www.plus.google.com/" class="social__link">
+                                                    <i class="social__icon fa fa-google-plus"></i>
+                                                </a>
+                                            </li>
+                                            <li class="social__item">
+                                                <a href="https://www.twitter.com/" class="social__link">
+                                                    <i class="social__icon fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="header__toolbar-wrap d-block d-lg-none">
+                                        <div class="header__toolbar">
+                                            <a href="#searchForm" class="toolbar-btn">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                            <a href="#offcanvasMenu" class="toolbar-btn menu-btn">
+                                                <div class="hamburger-icon">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom bg-gradient d-none d-lg-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header__bottom-inner">
+                                    <nav class="main-navigation">
+                                        <ul class="mainmenu">
+                                            <li class="mainmenu__item menu-item-has-children">
+                                                <a href="home" class="mainmenu__link">
+                                                    <span data-hover="Home" class="mm-text">Home</span>
+                                                </a>
+                                            </li>
+                                            <li class="mainmenu__item menu-item-has-children position-static">
+                                                <a href="#" class="mainmenu__link">
+                                                    <span data-hover="Features" class="mm-text">Features</span>
+                                                </a>
+                                                <ul class="megamenu">
+                                                    <li>
+                                                        <div class="megamenu-content">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-md-3">
+                                                                    <figure class="megamenu-image">
+                                                                        <img src="{% get_static_prefix %}assets/img/banner/mega_menu.png" alt="Mega Menu Banner">
+                                                                    </figure>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-files-o"></i>
+                                                                                <span class="mm-text">40+ Pages</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-home"></i>
+                                                                                <span class="mm-text">5+ Homepage Styles</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-minus"></i>
+                                                                                <span class="mm-text">6 Header Styles</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-newspaper-o"></i>
+                                                                                <span class="mm-text">2+ Service Archive Styles</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-file-o"></i>
+                                                                                <span class="mm-text">6+ Service Details Styles</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-laptop"></i>
+                                                                                <span class="mm-text">Easy to Customize</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-times"></i>
+                                                                                <span class="mm-text">Without Console Error</span>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-image"></i>
+                                                                                <span class="mm-text">Revoulation Slider</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-desktop"></i>
+                                                                                <span class="mm-text">Responsive Design</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-minus"></i>
+                                                                                <span class="mm-text">Sticky Header</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-css3"></i>
+                                                                                <span class="mm-text">Smooth CSS3 Animation</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-google"></i>
+                                                                                <span class="mm-text">Google Fonts</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-map-o"></i>
+                                                                                <span class="mm-text">Google Map</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-code"></i>
+                                                                                <span class="mm-text">Bootstrap 4.x Based</span>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-html5"></i>
+                                                                                <span class="mm-text">Clean Markup</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-rocket"></i>
+                                                                                <span class="mm-text"> Blazing Fast Loading Speed</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-shopping-cart"></i>
+                                                                                <span class="mm-text">WooCommerce Compatible</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-envelope"></i>
+                                                                                <span class="mm-text">Dynamic Contact Form</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-envelope-o"></i>
+                                                                                <span class="mm-text">Mailchimp Subscribe</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-font-awesome"></i>
+                                                                                <span class="mm-text">Font Awesome Icons</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <i class="fa fa-font"></i>
+                                                                                <span class="mm-text">Pe 7 Stroke Icon</span>  
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mainmenu__item menu-item-has-children">
+                                                <a href="about-us.html" class="mainmenu__link">
+                                                    <span data-hover="About Us" class="mm-text">About Us</span>
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li>
+                                                        <a href="about-us.html">
+                                                            <span data-hover="Our Company" class="mm-text">Our Company</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="careers">
+                                                            <span data-hover="Careers" class="mm-text">Careers</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="our-history.html">
+                                                            <span data-hover="Our History" class="mm-text">Our History</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="honors-awards.html">
+                                                            <span data-hover="Honors &amp; Awards" class="mm-text">Honors &amp; Awards</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="team.html">
+                                                            <span data-hover="Our Team" class="mm-text">Our Team</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="faq.html">
+                                                            <span data-hover="F.A.Q" class="mm-text">F.A.Q</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mainmenu__item menu-item-has-children">
+                                                <a href="our-services.html" class="mainmenu__link">
+                                                    <span data-hover="Our Services" class="mm-text">Our Services</span>
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li>
+                                                        <a href="our-services.html">
+                                                            <span data-hover="Our Services 01" class="mm-text">Our Services 01</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="our-services-02.html">
+                                                            <span data-hover="Our Services 02" class="mm-text">Our Services 02</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="our-services-03.html">
+                                                            <span data-hover="Our Services 03 (One Page)" class="mm-text">Our Services 03 (One Page)</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-item-has-children">
+                                                        <a href="our-services-with-sidebar.html">
+                                                            <span data-hover="Our Services With Sidebar" class="mm-text">Our Services With Sidebar</span>
+                                                        </a>
+                                                        <ul class="sub-menu">
+                                                            <li>
+                                                                <a href="single-services.html">
+                                                                    <span data-hover="Single Services 01" class="mm-text">Single Services 01</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="single-services-02.html">
+                                                                    <span data-hover="Single Services 02" class="mm-text">Single Services 02</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="accumulation.html">
+                                                            <span data-hover="Accumulation" class="mm-text">Accumulation</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="taxation.html">
+                                                            <span data-hover="Taxation" class="mm-text">Taxation</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="risk-management.html">
+                                                            <span data-hover="Risk Management" class="mm-text">Risk Management</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="estate-planning.html">
+                                                            <span data-hover="Estate Planning" class="mm-text">Estate Planning</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="retirement-planning.html">
+                                                            <span data-hover="Retirement Planning" class="mm-text">Retirement Planning</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="business-planning.html">
+                                                            <span data-hover="Business Planning" class="mm-text">Business Planning</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mainmenu__item menu-item-has-children">
+                                                <a href="shop.html" class="mainmenu__link">
+                                                    <span data-hover="Shop" class="mm-text">Shop</span>
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li>
+                                                        <a href="shop.html">
+                                                            <span data-hover="Shop" class="mm-text">Shop</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product.html">
+                                                            <span data-hover="Single Product" class="mm-text">Single Product</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="mainmenu__item menu-item-has-children">
+                                                <a href="our-projects.html" class="mainmenu__link">
+                                                    <span data-hover="Projects" class="mm-text">Projects</span>
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li>
+                                                        <a href="our-projects.html">
+                                                            <span data-hover="Projects Archive" class="mm-text">Projects Archive</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-project.html">
+                                                            <span data-hover="Single Project" class="mm-text">Single Project</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>   
+                                            </li>
+                                            <li class="mainmenu__item menu-item-has-children">
+                                                <a href="news.html" class="mainmenu__link">
+                                                    <span data-hover="News" class="mm-text">News</span>
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item-has-children">
+                                                        <a href="news.html">
+                                                            <span data-hover="News" class="mm-text">News</span>
+                                                        </a>
+                                                        <ul class="sub-menu">
+                                                            <li>
+                                                                <a href="news-01-column.html">
+                                                                    <span data-hover="01 Column" class="mm-text">01 Column</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="news-02-columns.html">
+                                                                    <span data-hover="02 Columns" class="mm-text">02 Columns</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="news-03-columns.html">
+                                                                    <span data-hover="03 Columns" class="mm-text">03 Columns</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="news-left-sidebar.html">
+                                                                    <span data-hover="Left Sidebar" class="mm-text">Left Sidebar</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="menu-item-has-children">
+                                                        <a href="news-details-image.html">
+                                                            <span data-hover="Single News" class="mm-text">Single News</span>
+                                                        </a>
+                                                        <ul class="sub-menu">
+                                                            <li>
+                                                                <a href="news-details-audio.html">
+                                                                    <span data-hover="Audio News Details" class="mm-text">Audio News Details</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="news-details-gallery.html">
+                                                                    <span data-hover="Gallery News Details" class="mm-text">Gallery News Details</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="news-details-image.html">
+                                                                    <span data-hover="Image News Details" class="mm-text">Image News Details</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="news-details-video.html">
+                                                                    <span data-hover="Video News Details" class="mm-text">Video News Details</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="news-details-left-sidebar.html">
+                                                                    <span data-hover="News Details Left Sidebar" class="mm-text">News Details Left Sidebar</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>  
+                                            </li>
+                                            <li class="mainmenu__item menu-item-has-children">
+                                                <a href="#" class="mainmenu__link">
+                                                    <span data-hover="Pages" class="mm-text">Pages</span>
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li>
+                                                        <a href="contact-us.html">
+                                                            <span data-hover="Contact Us" class="mm-text">Contact Us</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="404.html">
+                                                            <span data-hover="404 Page" class="mm-text">404 Page</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="maintenance-mode.html">
+                                                            <span data-hover="Maintenance Mode" class="mm-text">Maintenance Mode</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="coming-soon.html">
+                                                            <span data-hover="Coming Soon" class="mm-text">Coming Soon</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <div class="header__toggle-search">
+                                        <a href="#searchForm" class="toolbar-btn">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas-menu-wrapper" id="offcanvasMenu">
+                <div class="offcanvas-menu-inner">
+                    <a href="#" class="btn-close">
+                        <i class="pe-7s-close"></i>
+                    </a>
+                    <nav class="offcanvas-navigation">
+                        <ul class="offcanvas-menu">
+                            <li class="menu-item-has-children active">
+                                <a href="home">
+                                    <span class="mm-text">Home</span>
+                                </a>
+
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">
+                                    <span class="mm-text">Features</span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item-has-children">
+                                        <a href="#">
+                                            <span class="mm-text">Features 01</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-files-o"></i>
+                                                    <span class="mm-text">40+ Pages</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-home"></i>
+                                                    <span class="mm-text">5+ Homepage Styles</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-minus"></i>
+                                                    <span class="mm-text">6 Header Styles</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-newspaper-o"></i>
+                                                    <span class="mm-text">2+ Service Archive Styles</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-file-o"></i>
+                                                    <span class="mm-text">6+ Service Details Styles</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-laptop"></i>
+                                                    <span class="mm-text">Easy to Customize</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-times"></i>
+                                                    <span class="mm-text">Without Console Error</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">
+                                            <span class="mm-text">Features 02</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-image"></i>
+                                                    <span class="mm-text">Revoulation Slider</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-desktop"></i>
+                                                    <span class="mm-text">Responsive Design</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-minus"></i>
+                                                    <span class="mm-text">Sticky Header</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-css3"></i>
+                                                    <span class="mm-text">Smooth CSS3 Animation</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-google"></i>
+                                                    <span class="mm-text">Google Fonts</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-map-o"></i>
+                                                    <span class="mm-text">Google Map</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-code"></i>
+                                                    <span class="mm-text">Bootstrap 4.x Based</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">
+                                            <span class="mm-text">Features 03</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-html5"></i>
+                                                    <span class="mm-text">Clean Markup</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-rocket"></i>
+                                                    <span class="mm-text"> Blazing Fast Loading Speed</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                    <span class="mm-text">WooCommerce Compatible</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-envelope"></i>
+                                                    <span class="mm-text">Dynamic Contact Form</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-envelope-o"></i>
+                                                    <span class="mm-text">Mailchimp Subscribe</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-font-awesome"></i>
+                                                    <span class="mm-text">Font Awesome Icons</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa fa-font"></i>
+                                                    <span class="mm-text">Pe 7 Stroke Icon</span>  
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="about-us.html">
+                                    <span class="mm-text">About Us</span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="about-us.html">
+                                            <span class="mm-text">Our Company</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="careers.html">
+                                            <span class="mm-text">Careers</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="our-history.html">
+                                            <span class="mm-text">Our History</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="honors-awards.html">
+                                            <span class="mm-text">Honors &amp; Awards</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="team.html">
+                                            <span class="mm-text">Our Team</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">
+                                            <span class="mm-text">F.A.Q</span>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="our-services.html">
+                                    <span class="mm-text">Our Services</span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="our-services.html">
+                                            <span class="mm-text">Our Services 01</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="our-services-02.html">
+                                            <span class="mm-text">Our Services 02</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="our-services-03.html">
+                                            <span class="mm-text">Our Services 03 (One Page)</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="our-services-with-sidebar.html">
+                                            <span class="mm-text">Our Services With Sidebar</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="single-services.html">
+                                                    <span class="mm-text">Single Services 01</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="single-services-02.html">
+                                                    <span class="mm-text">Single Services 02</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="taxation.html">
+                                            <span class="mm-text">Taxation</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="risk-management.html">
+                                            <span class="mm-text">Risk Management</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="estate-planning.html">
+                                            <span class="mm-text">Estate Planning</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="retirement-planning.html">
+                                            <span class="mm-text">Retirement Planning</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="business-planning.html">
+                                            <span class="mm-text">Business Planning</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">
+                                    <span class="mm-text">Shop</span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="shop.html">
+                                            <span class="mm-text">Shop</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="single-product.html">
+                                            <span class="mm-text">Single Product</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">
+                                    <span class="mm-text">Projects</span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="our-projects.html">
+                                            <span class="mm-text">Projects Archive</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="single-project.html">
+                                            <span class="mm-text">Single Project</span>
+                                        </a>
+                                    </li>
+                                </ul>   
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="news.html">
+                                    <span class="mm-text">News</span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item-has-children">
+                                        <a href="news.html">
+                                            <span class="mm-text">News</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="news-01-column.html">
+                                                    <span class="mm-text">01 Column</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="news-02-columns.html">
+                                                    <span class="mm-text">02 Columns</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="news-03-columns.html">
+                                                    <span class="mm-text">03 Columns</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="news-left-sidebar.html">
+                                                    <span class="mm-text">Left Sidebar</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="news-details-image.html">
+                                            <span class="mm-text">Single News</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="news-details-audio.html">
+                                                    <span class="mm-text">Audio News Details</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="news-details-gallery.html">
+                                                    <span class="mm-text">Gallery News Details</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="news-details-image.html">
+                                                    <span class="mm-text">Image News Details</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="news-details-video.html">
+                                                    <span class="mm-text">Video News Details</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="news-details-left-sidebar.html">
+                                                    <span class="mm-text">News Details Left Sidebar</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul> 
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">
+                                    <span class="mm-text">Pages</span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="contact-us.html">
+                                            <span class="mm-text">Contact Us</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="404.html">
+                                            <span class="mm-text">404 Page</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="maintenance-mode.html">
+                                            <span class="mm-text">Maintenance Mode</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="coming-soon.html">
+                                            <span class="mm-text">Coming Soon</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="site-info vertical">
+                            <div class="site-info__item">
+                                <i class="pe-7s-call"></i>
+                                <div class="site-info__content">
+                                    <span class="site-info__title">001 735 9193</span>
+                                    <span class="site-info__text"><a href="mailto:info@example.com">info@example.com</a></span>
+                                </div>
+                            </div>
+                            <div class="site-info__item">
+                                <i class="pe-7s-map-marker"></i>
+                                <div class="site-info__content">
+                                    <span class="site-info__title">350 Fifth Avenue</span>
+                                    <span class="site-info__text">New York, NY 90210</span>
+                                </div>
+                            </div>
+                            <div class="site-info__item">
+                                <i class="pe-7s-clock"></i>
+                                <div class="site-info__content">
+                                   <span class="site-info__title">7:30 AM - 7:30 PM</span>
+                                    <span class="site-info__text">Monday to Saturday</span> 
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="social social-round white-color">
+                            <li class="social__item">
+                                <a href="https://www.facebook.com/" class="social__link">
+                                    <i class="social__icon fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.plus.google.com/" class="social__link">
+                                    <i class="social__icon fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.twitter.com/" class="social__link">
+                                    <i class="social__icon fa fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Page Title Area Start -->
+        <section class="page-title-area bg-image ptb--80" data-bg-image="{% static 'assets/img/bg/page_title_bg.jpg' %}">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="page-title">Login &amp; Register</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Page Title Area End -->
+
+        <!-- Breadcrumb Area Start -->
+        <div class="breadcrumb-area mb--75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="breadcrumb">
+                            <li><a href="home">Home</a></li>
+                            <li class="current"><span>Login &amp; Register</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb Area End -->
+
+        <!-- Main Content Wrapper Start -->
+        <div class="main-content-wrapper">
+            <div class="inner-content-area pb--80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mb-sm--50">
+                            <div class="login-box">
+                                <h3 class="heading__tertiary mb--30">Login</h3>
+                                <form class="form form--login">
+                                    <div class="form__group mb--20">
+                                        <label class="form__label form__label--2" for="username_email">Username or email address <span class="required">*</span></label>
+                                        <input type="text" class="form__input form__input--2" id="username_email" name="username_email">
+                                    </div>
+                                    <div class="form__group mb--20">
+                                       <label class="form__label form__label--2" for="login_password">Password <span class="required">*</span></label>
+                                        <input type="password" class="form__input form__input--2" id="login_password" name="login_password">
+                                    </div>
+                                    <div class="d-flex align-items-center mb--20">
+                                        <div class="form__group mr--30">
+                                            <input type="submit" value="Log in" class="btn btn-submit btn-style-1">
+                                        </div>
+                                        <div class="form__group">
+                                            <label class="form__label inline-label" for="store_session">
+                                                <input type="checkbox" name="store_session" id="store_session">
+                                                <span>Remember me</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <a class="forgot-pass" href="#">Lost your password?</a>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="register-box">
+                                <h4 class="heading__tertiary mb--30">Register</h4>
+                                <form class="form form--login">
+                                    <div class="form__group mb--20">
+                                        <label class="form__label form__label--2" for="email">Email address <span class="required">*</span></label>
+                                        <input type="email" class="form__input form__input--2" id="email" name="email">
+                                    </div>
+                                    <div class="form__group mb--20">
+                                       <label class="form__label form__label--2" for="register_password">Password <span class="required">*</span></label>
+                                        <input type="password" class="form__input form__input--2" id="register_password" name="register_password">
+                                    </div>
+                                    <p class="privacy-text mb--20">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</p>
+                                    <div class="form__group">
+                                        <input type="submit" value="Register" class="btn btn-submit btn-style-1">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content Wrapper Start -->
+
+        <!-- Footer Start-->
+        <footer class="footer">
+            <div class="footer-top border-bottom-2 pt--70 pt-md--85 pb--45 pb-lg--40 pb-md--65">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 mb-md--30 mb-sm--45">
+                            <div class="footer-widget">
+                                <div class="textwidget">
+                                    <a href="home" class="d-block">
+                                        <img src="{% get_static_prefix %}assets/img/logo/logo_02.png" alt="Logo" class="footer-logo mb--30">
+                                    </a>
+                                    <p class="mb--40">Sanders is one of the world’s leading financial consulting firms.</p>
+                                    <p><i class="fa fa-map-marker"></i>14 Tottenham Court Road, London, England.</p>
+                                    <p><i class="fa fa-phone"></i>(102) 6666 8888</p>
+                                    <p><i class="fa fa-envelope"></i><a href="maito:info@company.com">info@company.com</a></p>
+                                    <p><i class="fa fa-desktop"></i><a href="www.example.com">www.example.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-md--30 mb-sm--20">
+                            <div class="footer-widget">
+                                <h3 class="widget-title mb--20">Explore</h3>
+                                <ul class="widget-menu two-column-list">
+                                    <li><a href="home">Home</a></li>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="our-services.html">Services</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="news.html">News</a></li>
+                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="#">Bonds</a></li>
+                                    <li><a href="#">Commodities</a></li>
+                                    <li><a href="#">Investments</a></li>
+                                    <li><a href="#">Retirement</a></li>
+                                    <li><a href="#">Stocks</a></li>
+                                    <li><a href="#">Trades</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="footer-widget">
+                                <h3 class="widget-title mb--20">Subscribe</h3>
+                                <div class="textwidget border-bottom-2 mb--30 pb--30">
+                                    <form action="https://company.us19.list-manage.com/subscribe/post?u=2f2631cacbe4767192d339ef2&amp;id=24db23e68a" class="newsletter mc-form mb--20" method="post" target="_blank">
+                                        <input type="email" class="newsletter__input" name="newsletter_email" id="newsletter_email" placeholder="Enter Your E-mail">
+                                        <button type="submit" class="newsletter__submit"><i class="fa fa-envelope"></i></button>
+                                    </form>
+                                    <p>Get latest updates and offers.</p>
+                                </div>
+                                <div class="textwidget">
+                                    <ul class="social social-with-text two-column-list">
+                                        <li class="social__item">
+                                            <a class="social__link" href="https://www.facebook.com/">
+                                                <i class="social__icon fa fa-facebook"></i>
+                                                <span class="social__text">Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a class="social__link" href="https://www.plus.google.com/">
+                                                <i class="social__icon fa fa-google-plus"></i>
+                                                <span class="social__text">Google Plus</span>
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a class="social__link" href="https://www.twitter.com/">
+                                                <i class="social__icon fa fa-twitter"></i>
+                                                <span class="social__text">Twitter</span>
+                                            </a>
+                                        </li>
+                                        <li class="social__item">
+                                            <a class="social__link" href="https://www.linkedin.com/">
+                                                <i class="social__icon fa fa-linkedin"></i>
+                                                <span class="social__text">Linkedin</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom ptb--30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-left">
+                            <p class="copyright-text">Sanders &copy; 2019 all rights reserved</p>
+                        </div>
+                        <div class="col-md-6 text-center text-md-right">
+                            <ul class="footer-menu">
+                                <li><a href="#">Legal</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End-->
+
+        <!-- Global Overlay Start -->
+        <div class="fp-global-overlay"></div>
+        <!-- Global Overlay End -->
+
+        <!-- Global Overlay Start -->
+        <a class="scroll-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+        <!-- Global Overlay End -->
+
+        <!-- Searchform Popup Start -->
+        <div class="popup-search" id="searchForm">
+            <div class="popup-search__body">
+                <a href="#" class="btn-close"><i class="fa fa-times"></i></a>
+                <form action="#" class="searchform">
+                    <input type="text" name="popup-search" id="popup-search" class="searchform__input" placeholder="Search...">
+                    <button type="submit" class="searchform__submit"></button>
+                </form>
+                <p>* Type a keyword then press Enter</p>
+            </div>
+        </div>
+        <!-- Searchform Popup End -->
+
+        <!-- Color Variation Start -->
+        <div class="style-customizer closed">
+            <div class="buy-button">
+                <a class="opener" href="#"><i class="fa fa-cog fa-spin"></i></a>
+            </div>
+            <div class="clearfix content-chooser">
+                <h3>Color Schemes</h3>
+                <p>Which Template color you want to use? Select from here.</p>
+                <ul class="styleChange clearfix">
+                    <li class="skin-default selected" data-color="#014c8c" data-style="main"></li>
+                    <li class="skin-chill" data-color="#13909C" data-style="main-chill"></li>
+                    <li class="skin-dixie" data-color="#eb9d16" data-style="main-dixie"></li>
+                    <li class="skin-dodger" data-color="#3794f3" data-style="main-dodger"></li>
+                    <li class="skin-froly" data-color="#f17283" data-style="main-froly"></li>
+                    <li class="skin-green" data-color="#37f396" data-style="main-green"></li>
+                    <li class="skin-lime" data-color="#c8f905" data-style="main-lime"></li>
+                    <li class="skin-nova" data-color="#4d2a4f" data-style="main-nova"></li>
+                    <li class="skin-phant" data-color="#103754" data-style="main-phant"></li>
+                    <li class="skin-plum" data-color="#863C80" data-style="main-plum"></li>
+                    <li class="skin-red" data-color="#F33837" data-style="main-red"></li>
+                    <li class="skin-sandal" data-color="#a57e6f" data-style="main-sandal"></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Color Variation End -->
+
+
+
+    </div>
+    <!-- Main Wrapper End -->
+ 
+
+    <!-- ************************* JS Files ************************* -->
+
+    <!-- jQuery JS -->
+    <script src="{% static 'assets/js/vendor.js' %}"></script>
+
+    <!-- Main JS -->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+
+    <!-- REVOLUTION JS FILES -->
+    <script src="{% static 'assets/js/jquery.themepunch.tools.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.themepunch.revolution.min.js' %}"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script src="{% static 'assets/js/revoulation/revolution.extension.actions.min.js' %}"></script>
+    <script src="{% static 'assets/js/revoulation/revolution.extension.carousel.min.js' %}"></script>
+    <script src="{% static 'assets/js/revoulation/revolution.extension.kenburn.min.js' %}"></script>
+    <script src="{% static 'assets/js/revoulation/revolution.extension.layeranimation.min.js' %}"></script>
+    <script src="{% static 'assets/js/revoulation/revolution.extension.migration.min.js' %}"></script>
+    <script src="{% static 'assets/js/revoulation/revolution.extension.navigation.min.js' %}"></script>
+    <script src="{% static 'assets/js/revoulation/revolution.extension.parallax.min.js' %}"></script>
+    <script src="{% static 'assets/js/revoulation/revolution.extension.slideanims.min.js' %}"></script>
+    <script src="{% static 'assets/js/revoulation/revolution.extension.video.min.js' %}"></script>
+
+    <!-- REVOLUTION JS ACTIVATION FILE -->
+    <script src="{% static 'assets/js/revoulation.js' %}"></script>
+
+
+</body>
+
+
+<!-- Mirrored from demo.hasthemes.com/sanders-v2/sanders/login-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 24 Aug 2019 02:13:25 GMT -->
+</html>
